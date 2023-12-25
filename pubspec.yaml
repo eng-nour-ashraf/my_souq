@@ -1,0 +1,67 @@
+name: my_souq
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Flutter
+  cupertino_icons: ^1.0.2
+  # api packages
+  dio_http_cache:
+  dio:
+
+  #GET
+  get:
+
+  #LOG
+  logger:
+
+  #UTILS
+  flutter_staggered_animations:
+  device_preview: ^1.1.0
+  flutter_spinkit:
+  cached_network_image:
+  pull_to_refresh:
+  path_provider:
+  sqflite:
+  path:
+  internet_connection_checker: ^1.0.0+1
+
+dependency_overrides:
+  json_annotation: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          weight: 900
+
