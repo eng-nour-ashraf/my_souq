@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:my_souq/app/const/colors.dart';
 
 class AppLoadingWidget extends StatelessWidget {

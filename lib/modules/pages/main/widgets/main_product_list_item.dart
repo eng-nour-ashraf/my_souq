@@ -1,14 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_state_manager/src/simple/get_state.dart';
-import 'package:my_souq/app/enum/app_status.dart';
-import 'package:my_souq/modules/custom_widgets/app_error.dart';
 import 'package:my_souq/modules/custom_widgets/app_loading.dart';
 import 'package:my_souq/modules/pages/main/main_controller.dart';
 
-import '../../../../app/const/assets.dart';
 import '../../../../app/const/colors.dart';
-import '../../../../app/const/constants.dart';
 import '../../../../app/const/text_styles.dart';
 
 class MainProductListItem extends StatelessWidget {

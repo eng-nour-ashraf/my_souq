@@ -3,7 +3,6 @@ import 'package:my_souq/modules/pages/home/home_controller.dart';
 
 import '../../../../app/const/assets.dart';
 import '../../../../app/const/colors.dart';
-import '../../../../app/const/constants.dart';
 import '../../../../app/const/text_styles.dart';
 
 class HomeAppBar extends StatelessWidget {
